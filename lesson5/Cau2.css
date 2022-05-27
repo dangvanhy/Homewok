@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(208, 203, 203);
+    padding: 0px;
+    margin: 0px;
+    padding-top: 10vh;
+}
+
+.container{
+    width: 100vw;
+    background-color: rgb(20, 22, 35);
+}
+
+#left{
+    color: white;
+    width: 28%;
+    padding: 10vh 0vw 10vh 15vw;
+    display: inline-block;
+    margin-right: 10%;
+}
+
+#right{
+    box-sizing: border-box;
+    width: 30%;
+    display: inline-block;
+    background-color: white;
+    color: rgb(143, 138, 138);
+    padding: 2% 2% 2% 2%;
+    margin-top: -10px;
+}
+
+.heading{
+    color: rgb(148, 93, 41);
+    font-size: 17pt;
+}
+
+.heading_right{
+    color: black;
+    font-size: 17pt;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-weight: 400;
+}
+
+.text{
+    font-size: 32pt;
+}

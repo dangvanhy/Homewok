@@ -1,12 +1,12 @@
 body{
     background-color: white;
-    font-size: 15pt;
+    font-size: 12pt;
     color: black;
 }
 
 #left{
     box-sizing: border-box;
-    padding-left: 1vw;
+    padding-left: 5vw;
     padding-top: 10vh;
     vertical-align: top;
     width: 49%;
@@ -14,13 +14,14 @@ body{
 }
 
 #right{
-    width: 49%;
+    width: 50%;
     display: inline-block;
 }
 
 .content{
     width: 60%;
     margin: 0px auto;
+    position: relative;
 }
 
 .content::before{
@@ -29,7 +30,7 @@ body{
     top: 0;
     left: 0;
     width: 25%;
-    height: 50%;
+    height: 100%;
     position: absolute;
     border-top: 10px solid rgb(53, 65, 229);
     border-bottom: 10px solid rgb(53, 65, 229);
