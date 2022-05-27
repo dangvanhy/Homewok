@@ -18,17 +18,9 @@ body{
     display: inline-block;
 }
 
-.content::before{
-    content: "";
+.content{
     width: 60%;
     margin: 0px auto;
-    border-left: 5px solid rgb(53, 65, 229);
-    border-top: 5px solid rgb(53, 65, 229);
-    border-bottom: 5px solid rgb(53, 65, 229);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
 }
 
 .heading{
