@@ -19,6 +19,8 @@ body{
 }
 
 #right{
+    position: relative;
+    bottom: 80px;
     box-sizing: border-box;
     width: 30%;
     display: inline-block;
