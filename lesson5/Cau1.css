@@ -23,6 +23,19 @@ body{
     margin: 0px auto;
 }
 
+.content::before{
+    content: "";
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    border-top: 10px solid rgb(53, 65, 229);
+    border-bottom: 10px solid rgb(53, 65, 229);
+    border-left: 10px solid rgb(53, 65, 229);
+}
+
 .heading{
     color: rgb(53, 65, 229);
     font-size: 20pt;
