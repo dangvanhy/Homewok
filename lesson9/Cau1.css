@@ -1,0 +1,203 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 30vw;
+    height: 30vh;
+    object-fit: fill;
+    display: block;
+}
+
+.container_grid{
+    width: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 0px;
+    position: relative;
+}
+
+.cover{
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    width: 28vw;
+    height: 26vh;
+    left: 32vw;
+    top: 32vh;;
+    pointer-events: none;
+    z-index: 0;
+    transition: all 1s;
+}
+
+
+.container_item1:hover~.cover{
+    background-color: rgba(24, 24, 81, 0.832);
+    left: 1vw;
+    top: 2vh;
+}
+.text1{
+    position: absolute;
+    width: 8vw;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: rgba(255, 255, 255, 0);
+    left: 11vw;
+    top: 12vh;
+    z-index: 1;
+    transition: all 1.2s;
+}
+.container_item1:hover .text1{
+    color: rgb(255, 255, 255);
+}
+
+
+.container_item2:hover~.cover{
+    background-color: rgba(6, 6, 189, 0.563);
+    left: 31vw;
+    top: 2vh;
+}
+.text2{
+    position: absolute;
+    width: 8vw;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: rgba(255, 255, 255, 0);
+    left: 41vw;
+    top: 12vh;
+    z-index: 1;
+    transition: all 1.2s;
+}
+.container_item2:hover .text2{
+    color: rgb(255, 255, 255);
+}
+
+
+.container_item3:hover~.cover{
+    background-color: rgba(6, 6, 189, 0.288);
+    left: 61vw;
+    top: 2vh;
+}
+.text3{
+    position: absolute;
+    width: 8vw;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: rgba(255, 255, 255, 0);
+    left: 71vw;
+    top: 12vh;
+    z-index: 1;
+    transition: all 1.2s;
+}
+.container_item3:hover .text3{
+    color: rgb(255, 255, 255);  
+}
+
+
+
+.container_item4:hover~.cover{
+    background-color: rgba(209, 78, 42, 0.399);
+    left: 1vw;
+    top: 32vh;
+}
+.text4{
+    position: absolute;
+    width: 8vw;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: rgba(255, 255, 255, 0);
+    left: 11vw;
+    top: 42vh;
+    z-index: 1;
+    transition: all 1.2s;
+}
+.container_item4:hover .text4{
+    color: rgb(255, 255, 255);
+}
+
+
+.container_item5:hover~.cover{
+    background-color: rgba(29, 141, 40, 0.399);
+    left: 31vw;
+    top: 32vh;
+}
+.text5{
+    position: absolute;
+    width: 8vw;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: rgba(255, 255, 255, 0);
+    left: 41vw;
+    top: 42vh;
+    z-index: 1;
+    transition: all 1.2s;
+}
+.container_item5:hover .text5{
+    color: rgb(255, 255, 255);
+}
+
+
+.container_item6:hover~.cover{
+    background-color: rgba(82, 42, 13, 0.399);
+    left: 61vw;
+    top: 32vh;
+}
+.text6{
+    position: absolute;
+    width: 8vw;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: rgba(255, 255, 255, 0);
+    left: 71vw;
+    top: 42vh;
+    z-index: 1;
+    transition: all 1.2s;
+}
+.container_item6:hover .text6{
+    color: rgb(255, 255, 255);
+}
+
+
+.container_item7:hover~.cover{
+    background-color: rgba(26, 26, 36, 0.399);
+    left: 1vw;
+    top: 62vh;
+}
+.text7{
+    position: absolute;
+    width: 8vw;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: rgba(255, 255, 255, 0);
+    left: 11vw;
+    top: 72vh;
+    z-index: 1;
+    transition: all 1.2s;
+}
+.container_item7:hover .text7{
+    color: rgb(255, 255, 255);
+}
+
+
+.container_item8:hover~.cover{
+    background-color: rgba(167, 122, 27, 0.399);
+    left: 31vw;
+    top: 62vh;
+}
+.text8{
+    position: absolute;
+    width: 8vw;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: rgba(255, 255, 255, 0);
+    left: 41vw;
+    top: 72vh;
+    z-index: 1;
+    transition: all 1.2s;
+}
+.container_item8:hover .text8{
+    color: rgb(255, 255, 255);
+}
