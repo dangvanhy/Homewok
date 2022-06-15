@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+body{
+    background-color: #dfe8ef;
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 5vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.container{
+    display: flex;
+    background-color: #ecf2f6;
+    width: 19vw;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5%;
+}
+
+.list_image{
+    padding: 1.2vh 1.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 1.2vh;
+}
+
+.play_button{
+    width: 4vw;
+    height: auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.image{
+    position: absolute;
+    top: 1.5vh;
+    left: -2vw;
+    width: 14vw;
+    height: auto;
+}
+
+.name_of_song{  
+    color: #74778a;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    padding-left: 1vw;
+    padding-bottom: 1.5vh;
+}
+
+.singer{
+    color: #9ea4b1;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    padding-left: 1vw;
+}
+
+.time{
+    color: #9ea4b1;
+    font-family: 'Bitter', serif;
+    font-size: 0.7vw;
+    padding-left: 1vw;
+    font-weight: 300;
+}
+
+.progress_bar{
+    background-color: #9ea4b1;
+    border-radius: 99px;
+    height: 0.8vh;
+    width: 15.8vw;
+    margin-left: 1vw;
+}
