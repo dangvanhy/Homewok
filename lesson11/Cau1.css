@@ -1,0 +1,100 @@
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.parent{
+    display: flex;
+    padding-top: 2vw;
+    justify-content: center;
+}
+
+.container{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5vw;
+}
+
+.item{
+    width: 4vw;
+    height: 30vw;
+    position: relative;
+    transition: all 1s;
+}
+
+.image{
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    top: 26vw;
+    left: 1vw;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.image_icon{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.first_text{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.2vw;
+    display: none;
+    transition: all 1s;
+}
+
+.second_text{
+    position: absolute;
+    font-size: 0.75vw;
+    display: none;
+    transition: all 1s;
+}
+
+.item:focus{
+    width: 40vw;
+    height: 30vw;
+    position: relative;
+}
+
+.item:focus .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item:focus .icon{
+    top: 26vw;
+    left: 2.5vw;
+}
+
+.item:focus .first_text{
+    position: absolute;
+    color: white;
+    top: 26vw;
+    left: 5vw;
+    display: block;
+}
+
+.item:focus .second_text{
+    position: absolute;
+    color: white;
+    top: 27.5vw;
+    left: 5vw;
+    display: block;
+}
