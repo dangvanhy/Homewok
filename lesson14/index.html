@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <!-- Câu 1 -->
+    <div class="task">
+        <span>Text:</span>
+        <span id="tag_P1"></span>
+        <div class="space"></div>
+
+        <button onclick='Cau1()'>Câu 1</button>
+    </div>
+    <!-- Câu 2 -->
+    <div class="task">
+        <span>Họ:</span>
+        <input type="text" id="lastName">
+        <div class="space"></div>
+
+        <span>Tên:</span>
+        <input type="text" id="firstName">
+        <div class="space"></div>
+
+        <span>Họ và tên: </span>
+        <span id="tag_P2"></span>
+        <div class="space"></div>
+
+        <button onclick='Cau2()'>Câu 2</button>
+    </div>
+    <!-- Câu 3 -->
+    <div class="task">
+        <span>Số 1:</span>
+        <input type="text" id="number1">
+        <div class="space"></div>
+
+        <span>Số 2:</span>
+        <input type="text" id="number2">
+        <div class="space"></div>
+
+        <span>Tổng:</span>
+        <span id="add"></span>
+        <div class="space"></div>
+
+        <span>Hiệu:</span>
+        <span id="subtract"></span>
+        <div class="space"></div>
+
+        <span>Tích:</span>
+        <span id="multiple"></span>
+        <div class="space"></div>
+
+        <span>Thương:</span>
+        <span id="divide"></span>
+        <div class="space"></div>
+
+        <button onclick='Cau3()'>Câu 3</button>
+    </div>
+    <!-- Câu 4 -->
+    <div class="task">
+        <span>Random number:</span>
+        <span id="randomNumber"></span>
+        <div class="space"></div>
+
+        <button onclick='Cau4()'>Câu 4</button>
+    </div>
+    <!-- Câu 5 -->
+    <div class="task">
+        <span>Nhập độ C:</span>
+        <input type="text" id="celsius">
+        <div class="space"></div>
+
+        <span id="C2F"></span>
+        <div class="space"></div>
+
+        <span id="F2C"></span>
+        <div class="space"></div>
+
+        <button onclick='Cau5()'>Câu 5</button>
+    </div>
+    <!-- Câu 6 -->
+    <div class="task">
+        <span id="fahrenheit"></span>
+        <div class="space"></div>
+
+        <span id="changeF2C"></span>
+        <div class="space"></div>
+
+        <button onclick='Cau6()'>Câu 6</button>
+    </div>
+    <!-- Câu 7 -->
+    <div class="task">
+        <button onclick='Cau7()'>Câu 7</button>
+    </div>
+    <!-- Câu 8 -->
+    <div class="task">
+        <div class="progressBar">
+            <div class="barRun"></div>
+        </div>
+        <div class="space"></div>
+
+        <button onclick='Cau8()'>Câu 8</button>
+    </div>.
+    <!-- Câu 9 -->
+    <div class="task">
+        <span>Mời bạn nhập text: </span>
+        <input type="text" id="realTimeInput" onkeyup="Cau9()">
+        <div class="space"></div>
+
+        <span>Text bạn đang nhập: </span>
+        <span id="realTimeText"></span>
+        <div class="space"></div>
+    </div>
+    <!-- Câu 10 -->
+    <div class="task">
+        <input type="text" placeholder="input A" onkeypress="return check(event)" id="inputA">
+        <div class="space"></div>
+        <input type="text" placeholder="input B" onkeypress="return check(event)" id="inputB">
+        <div class="space"></div>
+        <input type="text" placeholder="input C" onkeypress="return check(event)" id="inputC">
+        <div class="space"></div>
+
+        <span>Số lớn nhất trong 3 số: </span>
+        <span id="maxNumber"></span>
+        <div class="space"></div>
+        <button onclick='Cau10()'>Câu 10</button>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="cover">
+    </div>
+    <div class="popup">
+        <div class="close">
+            <img src="https://img.icons8.com/ios-glyphs/344/delete-sign.png" alt="close">
+        </div>
+        <div class="text">
+            Đây là popup!
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

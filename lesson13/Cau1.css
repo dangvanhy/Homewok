@@ -19,7 +19,7 @@ body{
     transform: perspective(500px) rotateX(30deg);
 }
 
-.road::before{
+.line{
     content: '';
     position: absolute;
     top: 49%;
@@ -32,7 +32,7 @@ body{
     animation: animate 2s linear infinite;
 }
 
-.road::after{
+.size{
     content: '';
     position: absolute;
     width: 100%;
