@@ -79,7 +79,7 @@ img{
 }
 
 #playAnimation{
-    animation: progress 5s forwards;
+    animation: progress 5s linear;
 }
 
 @keyframes progress {
